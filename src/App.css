@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+.App {
+  margin: 0 auto;
+  width: 1030px;
+  text-align: center;
+}
+.list{
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  /*align-content: flex-start;*/
+  justify-content: center;
+}
+.cards {
+  position: relative;
+  /*margin: 10px;*/
+  display: block;
+  width: 31%;
+  max-height: 450px;
+  padding: 10px;
+}
+.cards:hover {
+  border: 2px solid #731414;
+}
+h3 {
+  font-size: 24px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+p {
+  font-size: 14px;
+  color: #731414;
+}
+span {
+  font-size: 12px;
+}
+/*.cards:nth-child(3n+1) { order: 1; }*/
+/*.cards:nth-child(3n+2) { order: 2; }*/
+/*.cards:nth-child(3n)   { order: 3; }*/
+
+/*li::before {*/
+/*  counter-increment: items;*/
+/*  content: counter(items);*/
+/*}*/
+
+/*.list::before,*/
+/*.list::after {*/
+/*  content: "";*/
+/*  flex-basis: 100%;*/
+/*  width: 0;*/
+/*  order: 2;*/
+/*}*/
+
+img {
+  width: 100%;
+}
